@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("todo.jpeg");
+  background-size: cover;
+}
+
+.outer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: flex-start; 
+  gap: 20px;
+}
+
+.textdiv,
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#userlist
+{
+    border-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: medium;
+
+}
+#ButtonADD {
+    padding: 8px 16px;                  
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-align: center;                 
+    display: flex;                      
+    justify-content: center;          
+    cursor: pointer;
+}
+#ButtonADD:hover
+{
+  background-color: rgb(38, 16, 16);
+  transition-delay: 10ms;
+  transition: ease-in-out;
+}
+
+.output {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.b11
+{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(155, 153, 153);
+}
+.b11:hover
+{
+  background-color: rgb(36, 21, 21);
+  color: whitesmoke;
+}
+
